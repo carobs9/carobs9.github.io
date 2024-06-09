@@ -4,4 +4,4 @@ description: >- # this means to ignore newlines until "baseurl:"
   A website to showcase my projects and profile.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://carobs9.github.io" # the base hostname & protocol for your site
-theme: jekyll-theme-minimal # You can change this to any Jekyll theme you prefer
+#theme: jekyll-theme-minimal # You can change this to any Jekyll theme you prefer
