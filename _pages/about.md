@@ -7,17 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-**Data Scientist | ML & NLP | Geospatial | Network Analysis**
+Data Scientist | ML & NLP | Geospatial Data | Network Analysis
 
 I build machine learning and NLP solutions. I enjoy transforming complex, high-volume data into clear, actionable insights. Current interests include network analysis, geospatial data science, and applied transformer models.
-
-Contact & Profiles
-------
-Email: carobrasor@gmail.com  
-Location: Copenhagen, Denmark  
-GitHub: [carobs9](https://github.com/carobs9)  
-LinkedIn: [/in/carolinabranas](https://www.linkedin.com/in/carolinabranas)  
-Hugging Face: [carobs9](https://huggingface.co/carobs9)
 
 Core Skills
 ------
@@ -29,8 +21,8 @@ Machine Learning Research Assistant at University of Copenhagen: building topic 
 
 Portfolio & Blog
 ------
-See the Portfolio section and Blog Posts archive for selected work and writing.
+This website is currently under construction. The Portfolio section, Publications section and Blog Posts archive will soon display selected work and writing.
 
 CV
 ------
-Full CV available under the CV page with detailed experience, education, skills, and awards.
+Full CV available under the CV page with detailed experience, education, skills, and awards. Please access a PDF version of my CV [here](/files/Carolina_Branas_RESUME.pdf).
