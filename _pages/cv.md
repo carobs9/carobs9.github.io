@@ -59,3 +59,7 @@ Awards
 * Dean’s List (2018–2022): GPA above 3.5 each semester.
 * Best Graduating GPA Marketing B.Sc. (2022).
 * Academic and Athletic Grant (2018–2022): Full scholarship for academic excellence and soccer performance.
+
+Publications
+======
+* Divine Policy: The Impact of Religion in Government (2026). With Alessandro Pizzigolotto and Lena Lindbjerg Sperling. Forthcoming at AEJ: Applied Economics. Previously circulated under the title "God Politics".

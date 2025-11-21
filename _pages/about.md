@@ -9,7 +9,7 @@ redirect_from:
 
 **Data Scientist | ML & NLP | Geospatial | Network Analysis**
 
-I build machine learning and NLP solutions (topic modeling, RAG pipelines, computer vision) and design scalable, containerized data workflows. I enjoy transforming complex, high-volume data into clear, actionable insights. Current interests include network analysis, geospatial data science, and applied transformer models.
+I build machine learning and NLP solutions. I enjoy transforming complex, high-volume data into clear, actionable insights. Current interests include network analysis, geospatial data science, and applied transformer models.
 
 Contact & Profiles
 ------
@@ -21,11 +21,11 @@ Hugging Face: [carobs9](https://huggingface.co/carobs9)
 
 Core Skills
 ------
-Machine Learning, NLP (Transformers, Topic Modeling, RAG), Computer Vision, Python (pandas, numpy, scikit-learn, PyTorch, TensorFlow), Geospatial (Geopandas, Rasterio, QGIS), Data Visualization (Matplotlib, Seaborn, Tableau, Power BI), Docker, Git, AWS, UCloud, CI/CD.
+Machine Learning, NLP (Transformers, Topic Modeling, RAG), Python (pandas, numpy, scikit-learn, PyTorch, TensorFlow), Geospatial (Geopandas, Rasterio, QGIS), Data Visualization (Matplotlib, Seaborn, Tableau, Power BI), Docker, Git, AWS, UCloud, CI/CD.
 
 Current Role
 ------
-Research Assistant (Data Science) at University of Copenhagen: building topic modeling and LLM-based retrieval-augmented generation pipelines; architecting containerized workflows for large-scale ingestion and preprocessing on UCloud.
+Machine Learning Research Assistant at University of Copenhagen: building topic modeling and LLM-based retrieval-augmented generation pipelines; architecting containerized workflows for large-scale ingestion and preprocessing on UCloud.
 
 Portfolio & Blog
 ------
