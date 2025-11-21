@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Carolina Brañas"
-  pronouns         : "she/her"
+  # pronouns       : "she/her"
   bio              : "Data Scientist building ML & NLP solutions; interests in network, geospatial, and applied ML."
   location         : "Copenhagen, Denmark"
-  employer         : "University of Copenhagen (Research Assistant)"
+  employer         : "University of Copenhagen"
   uri              : https://carobs9.github.io
   email            : "carobrasor@gmail.com" 
 
@@ -51,6 +51,7 @@ author:
   github           : "carobs9"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  huggingface      : "https://huggingface.co/carobs9"
 
   # Social media
   artstation       : # Username
@@ -87,6 +88,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  working-paper:
+    title: 'Working Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -221,6 +224,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /publication/:path/
 
 
 # These settings control how pages and collections are included in the site
