@@ -11,7 +11,7 @@ redirect_from:
 
 Summary
 ======
-Data Scientist with hands-on experience building machine learning and NLP models (including RAG and topic modeling), computer vision systems, and scalable containerized data workflows. Interests span network analysis, geospatial data, and applied machine learning for actionable insights.
+Data Scientist with hands-on experience building machine learning and NLP models (including RAG and topic modeling) and scalable containerized data workflows. Interests span network analysis, geospatial data, and applied machine learning for actionable insights.
 
 Experience
 ======
@@ -60,6 +60,3 @@ Awards
 * Best Graduating GPA Marketing B.Sc. (2022).
 * Academic and Athletic Grant (2018–2022): Full scholarship for academic excellence and soccer performance.
 
-Publications
-======
-* Divine Policy: The Impact of Religion in Government (2026). With Alessandro Pizzigolotto and Lena Lindbjerg Sperling. Forthcoming at AEJ: Applied Economics. Previously circulated under the title "God Politics".

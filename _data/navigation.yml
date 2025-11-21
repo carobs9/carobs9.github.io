@@ -9,6 +9,8 @@
 
 main:
   # Removed Publications, Talks, Teaching per site simplification
+  - title: "Publications"
+    url: /publications/
   - title: "Portfolio"
     url: /portfolio/
         
