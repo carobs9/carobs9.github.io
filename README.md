@@ -1,3 +1,11 @@
+# Personal Notes
+
+Docker: 
+- cd /Users/caro/Desktop/GITHUB-REPOS/carobs9.github.io
+- docker compose up
+- Open http://localhost:4000
+- docker compose down
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

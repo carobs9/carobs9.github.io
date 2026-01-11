@@ -9,7 +9,12 @@ redirect_from:
 
 Data Scientist | ML & NLP | Geospatial Data | Network Analysis
 
-My interests include machine learning, network analysis, natural language
+About Me and This Website
+------
+
+I am a data scientist keen on learning how to build websites. During some months of unemployment, I decided to start this website for fun and to polish it as much as possible. 
+
+Besides making this website look pretty, my interests include machine learning, network analysis, natural language
 processing, and geospatial data.
 
 Core Skills
@@ -22,4 +27,4 @@ This website is currently under construction. The Portfolio section, Publication
 
 CV
 ------
-Full CV available under the CV page with detailed experience, education, skills, and awards. Please access a PDF version of my CV [here](/files/Carolina_Branas_Resume_no_pic.pdf).
+Full CV available under the CV page with detailed experience, education, skills, and awards. You can access a PDF version of my CV [here](/files/Carolina_Branas_Resume_no_pic.pdf).

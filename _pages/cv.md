@@ -9,14 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
+You can access a PDF version of my CV [here](/files/Carolina_Branas_Resume_no_pic.pdf).
+
 Summary
 ======
 Data Scientist with hands-on experience building machine learning and NLP models (including RAG and topic modeling) and scalable containerized data workflows. Interests span network analysis, geospatial data, and applied machine learning for actionable insights.
 
 Experience
 ======
-* May 2024 – Present: Research Assistant (Data Science), University of Copenhagen  
-  * Shocking Religion project: topic models (BERTopic/UMAP/HDBSCAN) on large text corpora.  
+* May 2024 – Dec 2025: Research Assistant (Data Science), University of Copenhagen  
+  * Contributed to the Shocking Religion project.
+  * Built topic models to uncover thematic trends in text data.
   * Built RAG-based LLM pipelines for document insights.  
   * Designed and containerized scalable ingestion & preprocessing workflows (UCloud).  
   * Coordinated with multidisciplinary research team.
@@ -34,9 +37,16 @@ Education
 ======
 * M.Sc. Social Data Science, University of Copenhagen (2022 – 2024)  
   * Thesis: Mobility and income segregation in Madrid, Spain.  
-  * Selected Courses: Advanced Machine Learning (ITU), Geospatial Data Science (ITU), Advanced Network Science (ITU), NLP (DIKU).
+  * Selected Courses: 
+      * Advanced Machine Learning (ITU).
+      * Geospatial Data Science (ITU).
+      * Advanced Network Science (ITU).
+      * Natural Language Processing (DIKU).
 * B.Sc. Marketing (Computer Science Minor), Cardinal Stritch University (2018 – 2022)  
-  * Honors: Magna Cum Laude; Dean’s List (2018–2022); Best Graduating GPA (Marketing, 2022).
+  * Honors: 
+      * Magna Cum Laude.
+      * Dean’s List (2018–2022).
+      * Best Graduating GPA (Marketing, 2022).
 
 Skills
 ======
