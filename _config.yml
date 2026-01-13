@@ -260,6 +260,15 @@ defaults:
       share: true
       comment: true
   
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: false
 
 
 # Sass/SCSS
