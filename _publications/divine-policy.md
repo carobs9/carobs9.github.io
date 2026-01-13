@@ -3,6 +3,7 @@ title: "Divine Policy: The Impact of Religion in Government"
 collection: publications
 date: 2026-01-01
 venue: "AEJ: Applied Economics (Forthcoming)"
+permalink: /publication/divine-policy
 authors:
   - "Jeanet Bentzen"    
   - "Alessandro Pizzigolotto"
