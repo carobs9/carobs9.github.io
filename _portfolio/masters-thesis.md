@@ -1,5 +1,5 @@
 ---
-title: "Master's Thesis"
+title: "Mobility and Income Segregation in Madrid, Spain"
 excerpt: "Detailed portfolio entry describing my master's thesis work."
 collection: portfolio
 permalink: /portfolio/masters-thesis/
@@ -11,6 +11,7 @@ permalink: /portfolio/masters-thesis/
 - **Institution: University of Copenhagen.** 
 - **Thesis Title: Mobility and Income Segregation in Madrid, Spain.** 
 - **Advisors: Sandro Sousa and Yevgeniy Golovchenko.** 
+- **Date: September 2024 to December 2024**
 
 ## Links of Interest
 

@@ -4,11 +4,11 @@ excerpt: "Small cancer prediction project."
 collection: portfolio
 permalink: /portfolio/breast-cancer-pred/
 ---
-> This project was created purely for learning and experimentation. It is **not** a medical device and must not be used for real-world diagnosis or treatment decisions.
+> This project aims to classify tumors into benign or malignant based on several numerical features stored in the Wisconsin Breast Cancer dataset.
 
 ## Project at a Glance
 
-Using the classic Wisconsin Breast Cancer dataset, I built an end‑to‑end machine learning workflow that predicts whether a tumor is likely to be benign or malignant. The focus of the project is less on deployment and more on understanding the full data‑science lifecycle: from exploratory analysis and feature selection to deep learning and model comparison.
+Using the classic Wisconsin Breast Cancer dataset, I built a machine learning workflow that predicts whether a tumor is likely to be benign or malignant. The project contains an exploratory analysis and feature selection, as well as model comparisons.
 
 ## Dataset
 
