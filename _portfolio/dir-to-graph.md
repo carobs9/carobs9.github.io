@@ -2,7 +2,7 @@
 title: "Directory-to-Graph Visualization"
 excerpt: "Turn any folder into an interactive tree graph in the browser."
 collection: portfolio
-permalink: /portfolio/dir-to-graph/
+permalink: /projects/dir-to-graph/
 ---
 
 > dir-to-graph is a tool to explore folder structures as interactive trees. A small Python CLI walks a directory, exports a JSON tree, and a D3.js viewer renders it as a graph.

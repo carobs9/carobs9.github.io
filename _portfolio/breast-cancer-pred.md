@@ -2,7 +2,7 @@
 title: "Breast Cancer Prediction"
 excerpt: "Small cancer prediction project."
 collection: portfolio
-permalink: /portfolio/breast-cancer-pred/
+permalink: /projects/breast-cancer-pred/
 ---
 > This project aims to classify tumors into benign or malignant based on several numerical features stored in the Wisconsin Breast Cancer dataset.
 

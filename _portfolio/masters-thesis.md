@@ -2,7 +2,7 @@
 title: "Mobility and Income Segregation in Madrid, Spain"
 excerpt: "Detailed portfolio entry describing my master's thesis work."
 collection: portfolio
-permalink: /portfolio/masters-thesis/
+permalink: /projects/masters-thesis/
 ---
 
 <!-- Replace this placeholder text with a detailed description of your master's thesis. -->
