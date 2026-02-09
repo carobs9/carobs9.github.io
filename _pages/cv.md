@@ -17,6 +17,10 @@ Data Scientist with hands-on experience building machine learning and NLP models
 
 Experience
 ======
+* Feb 2026 - Present: Research Assistant (Data Science), University of Copenhagen
+  * Collaborating as a research assistant in the [Cataloguing Crop Traits and Breeders Across the OECD 1980-2025](https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/) project (financed by the Carlsberg Foundation).
+  * Building a unified database with all new cereal varieties released in the OECD since 1980, their traits and breeding history, and information about the companies involved in developing them. 
+  * The database will be the first large, unified database of its kind, and will be instrumental for exploring how to improve the crop innovation system should be structured in ways that increase the global food supply without expanding cropland into pristine environments.
 * May 2024 – Dec 2025: Research Assistant (Data Science), University of Copenhagen  
   * Contributed to the Shocking Religion project.
   * Built topic models to uncover thematic trends in text data.
