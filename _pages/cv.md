@@ -40,7 +40,7 @@ Experience
 Education
 ======
 * M.Sc. Social Data Science, University of Copenhagen (2022 – 2024)  
-  * Thesis: Mobility and income segregation in Madrid, Spain.  
+  * Thesis: [Mobility and income segregation in Madrid, Spain](https://carobs9.github.io/projects/masters-thesis/).  
   * Selected Courses: 
       * Advanced Machine Learning (ITU).
       * Geospatial Data Science (ITU).
