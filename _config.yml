@@ -23,7 +23,7 @@ repository               : "carobs9/carobs9.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "cb.webp"
   name             : "Carolina Brañas"
   # pronouns       : "she/her"
   # bio              : "Data Scientist; interests in networks, geospatial data, and applied ML."
