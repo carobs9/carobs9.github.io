@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Carolina Brañas"
   # pronouns       : "she/her"
-  bio              : "Data Scientist building ML & NLP solutions; interests in network, geospatial, and applied ML."
+  # bio              : "Data Scientist; interests in networks, geospatial data, and applied ML."
   location         : "Copenhagen, Denmark"
   employer         : "University of Copenhagen"
   uri              : https://carobs9.github.io
