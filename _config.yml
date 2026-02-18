@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Carolina Brañas - Data Scientist"
+title                    : "Data Scientist"
 title_separator          : "-"
 name                     : &name "Carolina Brañas"
-description              : &description "Carolina Brañas's data science portfolio"
+description              : &description "Portfolio"
 url                      : https://carobs9.github.io # Base URL for the site
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,7 +28,7 @@ author:
   # pronouns       : "she/her"
   # bio              : "Data Scientist; interests in networks, geospatial data, and applied ML."
   location         : "Copenhagen, Denmark"
-  employer         : "University of Copenhagen"
+  employer         : "University of Copenhagen, Department of Economics. Øster Farimagsgade 5, building 26, 1353 Copenhagen"
   uri              : https://carobs9.github.io
   email            : "carobrasor@gmail.com" 
 
