@@ -27,9 +27,10 @@ author:
   name             : "Carolina Brañas"
   # pronouns       : "she/her"
   # bio              : "Data Scientist; interests in networks, geospatial data, and applied ML."
-  location         : "Copenhagen, Denmark"
+  # location         : "Copenhagen, Denmark"
   employer: >
-    University of Copenhagen, Department of Economics.<br>
+    University of Copenhagen<br>
+    Department of Economics<br>
     Øster Farimagsgade 5, building 26<br>
     1353 Copenhagen
   uri              : https://carobs9.github.io
