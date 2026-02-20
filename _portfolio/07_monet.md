@@ -7,7 +7,8 @@ permalink: /projects/monet/
 
 {% include base_path %}
 
-> This was a short academic project in which I collaborated with other two students for the Advanced Machine Learning for Data Science master’s course at IT University of Copenhagen. You can access the repository with the code here: [carobs9/CycleGAN_Monet](https://github.com/carobs9/CycleGAN_Monet)
+> This was a short academic project in which I collaborated with other two students for the Advanced Machine Learning for Data Science master’s course at IT University of Copenhagen. 
+> You can access the repository with the code and a detailed description of the methods and training process here: [carobs9/CycleGAN_Monet](https://github.com/carobs9/CycleGAN_Monet)
 
 **General Method and Architecture**
 
