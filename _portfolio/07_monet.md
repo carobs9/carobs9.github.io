@@ -39,11 +39,11 @@ We experimented with different learning rates for the discriminators and generat
 
 These are some visualization of the results on the **test set**:
 
-(/images/monet/test_set_1.png)
-(/images/monet/test_set_2.png)
-(/images/monet/test_set_3.png)
+!(/images/monet/test_set_1.png)
+!(/images/monet/test_set_2.png)
+!(/images/monet/test_set_3.png)
 
 This is a visualization of the output of the model with an image from outside of the test set:
 
-(/images/monet/no_test.png)
+!(/images/monet/no_test.png)
 
