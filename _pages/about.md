@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Data Scientist | ML & NLP | Geospatial Data | Network Analysis
-
 About Me and This Website
 ------
 
