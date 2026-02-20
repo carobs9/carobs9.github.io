@@ -7,7 +7,7 @@ permalink: /projects/monet/
 
 {% include base_path %}
 
-> This was a short academic project for the Advanced Machine Learning for Data Science master’s course at IT University of Copenhagen. 
+> This was a short academic project in which I collaborated with other two students for the Advanced Machine Learning for Data Science master’s course at IT University of Copenhagen. You can access the repository with the code here: [carobs9/CycleGAN_Monet](https://github.com/carobs9/CycleGAN_Monet)
 
 **General Method and Architecture**
 
@@ -39,11 +39,11 @@ We experimented with different learning rates for the discriminators and generat
 
 These are some visualization of the results on the **test set**:
 
-!(/images/monet/test_set_1.png)
-!(/images/monet/test_set_2.png)
-!(/images/monet/test_set_3.png)
+![Test set example 1](/images/monet/test_set_1.png)
+![Test set example 2](/images/monet/test_set_2.png)
+![Test set example 3](/images/monet/test_set_3.png)
 
-This is a visualization of the output of the model with an image from outside of the test set:
+This is a visualization of the output of the model with an image from **outside of the test set**:
 
-!(/images/monet/no_test.png)
+![Example outside test set](/images/monet/no_test.png)
 
