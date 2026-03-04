@@ -3,6 +3,11 @@ title: "Breast Cancer Prediction"
 excerpt: "Small cancer prediction project."
 collection: portfolio
 permalink: /projects/breast-cancer-pred/
+tags:
+	- machine-learning
+	- deep-learning
+	- healthcare
+	- python
 ---
 > This project aims to classify tumors into benign or malignant based on several numerical features stored in the Wisconsin Breast Cancer dataset.
 

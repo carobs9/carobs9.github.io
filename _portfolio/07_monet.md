@@ -3,6 +3,11 @@ title: "Monet-Style Painting Generation Using CycleGAN"
 excerpt: "Academic project."
 collection: portfolio
 permalink: /projects/monet/
+tags:
+	- deep-learning
+	- computer-vision
+	- gan
+	- python
 ---
 
 {% include base_path %}

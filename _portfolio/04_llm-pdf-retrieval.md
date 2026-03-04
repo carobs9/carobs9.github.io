@@ -3,6 +3,11 @@ title: "LLM-Powered PDF Retrieval"
 excerpt: "Using Mistral, LangChain, and RAG to turn PDFs into structured data."
 collection: portfolio
 permalink: /projects/llm-pdf-retrieval/
+tags:
+	- llm
+	- rag
+	- nlp
+	- python
 ---
 
 > Experimental tooling for extracting structured information from academic PDFs using Large Language Models. Built for learning and prototyping—**not** for production or compliance-critical workflows.
