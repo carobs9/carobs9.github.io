@@ -3,10 +3,6 @@ title: "git-notes"
 excerpt: "A Git cheatsheet based on traumatic experiences during projects."
 collection: portfolio
 permalink: /projects/git-notes/
-tags:
-	- git
-	- developer-tools
-	- notes
 ---
 
 {% include base_path %}

@@ -3,12 +3,6 @@ title: "Mobility and Income Segregation in Madrid, Spain"
 excerpt: "Detailed portfolio entry describing my master's thesis work."
 collection: portfolio
 permalink: /projects/masters-thesis/
-tags:
-	- research
-	- urban-mobility
-	- inequality
-	- network-analysis
-	- python
 ---
 
 <!-- Replace this placeholder text with a detailed description of your master's thesis. -->
