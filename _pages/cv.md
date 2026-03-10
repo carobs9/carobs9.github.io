@@ -45,7 +45,7 @@ Education
       * Advanced Machine Learning ([IT University of Copenhagen](https://en.itu.dk/)).
       * Geospatial Data Science ([IT University of Copenhagen](https://en.itu.dk/)).
       * Advanced Network Science ([IT University of Copenhagen](https://en.itu.dk/)).
-      * Natural Language Processing (([Dept. of Computer Science, University of Copenhagen](https://di.ku.dk/english/))).
+      * Natural Language Processing ([Dept. of Computer Science, University of Copenhagen](https://di.ku.dk/english/)).
 * **B.Sc. Marketing and Computer Science Minor, Cardinal Stritch University (2018 – 2022)**  
   * Honors: 
       * Magna Cum Laude.
