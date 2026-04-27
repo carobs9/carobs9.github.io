@@ -1,33 +1,147 @@
 ---
 permalink: /
 title: "Carolina Brañas"
-author_profile: true
-redirect_from: 
+layout: home
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-About Me and This Website
-------
+{% include base_path %}
 
-I am a data scientist keen on learning how to build websites. During some months of unemployment, I decided to start this website for fun and to polish it as much as possible. 
+<section id="about">
+<h2>About</h2>
 
-Besides making this website look pretty, my interests include machine learning, network analysis, natural language
-processing, and geospatial data.
+<p>I am a data scientist keen on learning how to build websites. During some months of unemployment, I decided to start this website for fun and to polish it as much as possible.</p>
 
-Currently
-------
-Collaborating as a research assistant in the [Cataloguing Crop Traits and Breeders Across the OECD 1980-2025](https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/) project (financed by the Carlsberg Foundation).
+<p>Besides making this website look pretty, my interests include machine learning, network analysis, natural language processing, and geospatial data.</p>
 
-Core Skills
-------
-* Machine Learning
-* NLP (Transformers, Topic Modeling, RAG)
-* Python (pandas, numpy, scikit-learn, PyTorch, TensorFlow)
-* Geospatial (Geopandas, Rasterio, QGIS)
-* Data Visualization (Matplotlib, Seaborn, Tableau, Power BI)
-* Docker, Git, AWS, UCloud, CI/CD, ETL, SQL
+<h3>Currently</h3>
+<p>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</p>
 
-CV
-------
-Full CV available under the CV page with detailed experience, education, skills, and awards. You can access a PDF version of my CV [here](/files/Carolina_Branas_Resume_no_pic.pdf).
+<h3>Core Skills</h3>
+<ul>
+  <li>Machine Learning</li>
+  <li>NLP (Transformers, Topic Modeling, RAG)</li>
+  <li>Python (pandas, numpy, scikit-learn, PyTorch, TensorFlow)</li>
+  <li>Geospatial (Geopandas, Rasterio, QGIS)</li>
+  <li>Data Visualization (Matplotlib, Seaborn, Tableau, Power BI)</li>
+  <li>Docker, Git, AWS, UCloud, CI/CD, ETL, SQL</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+{% for post in site.portfolio %}
+  <div class="home-entry">
+    <h3><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h3>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
+</section>
+
+<section id="publications">
+<h2>Publications</h2>
+
+{% for post in site.publications reversed %}
+  <div class="home-entry">
+    <h3>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
+    <p class="home-entry-meta">
+      {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+      {% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
+    </p>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+    {% if post.citation %}
+      <p style="font-size: 0.9em; color: #666;">{{ post.citation }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
+</section>
+
+<section id="cv">
+<h2>CV</h2>
+
+<p>You can access a PDF version of my CV <a href="/files/Carolina_Branas_Resume_no_pic.pdf">here</a>.</p>
+
+<h3>Summary</h3>
+<p>Data Scientist with hands-on experience building machine learning and NLP models (including RAG and topic modeling) and scalable containerized data workflows. Interests span network analysis, geospatial data, and applied machine learning for actionable insights.</p>
+
+<h3>Experience</h3>
+
+<h4>Feb 2026 – Present · Research Assistant (Data Science), University of Copenhagen</h4>
+<ul>
+  <li>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</li>
+  <li>Building a unified database with all new cereal varieties released in the OECD since 1980, their traits and breeding history, and information about the companies involved in developing them.</li>
+  <li>The database will be the first large, unified database of its kind, and will be instrumental for exploring how to improve the crop innovation system to increase the global food supply without expanding cropland into pristine environments.</li>
+</ul>
+
+<h4>May 2024 – Dec 2025 · Research Assistant (Data Science), University of Copenhagen</h4>
+<ul>
+  <li>Contributed to the Shocking Religion project.</li>
+  <li>Built topic models to uncover thematic trends in text data.</li>
+  <li>Built RAG-based LLM pipelines for document insights.</li>
+  <li>Designed and containerized scalable ingestion &amp; preprocessing workflows (UCloud).</li>
+  <li>Coordinated with multidisciplinary research team.</li>
+</ul>
+
+<h4>Oct 2023 – May 2024 · Data Scientist, Above Sports, Denmark</h4>
+<ul>
+  <li>Automated data workflows to improve efficiency.</li>
+  <li>Developed computer vision brand logo detection models.</li>
+  <li>Dockerized solutions for reproducible ML workflows.</li>
+  <li>Collaborated with product to refine output quality.</li>
+</ul>
+
+<h4>Sep 2021 – May 2022 · Marketing Strategist, Crescendo Collective, United States</h4>
+<ul>
+  <li>Analyzed campaign performance (Google Analytics, Ads).</li>
+  <li>Automated internal reporting with Python scripts.</li>
+  <li>Competitor analysis and audience benchmarks; stakeholder reporting.</li>
+</ul>
+
+<h3>Education</h3>
+
+<h4>M.Sc. Social Data Science, University of Copenhagen (2022 – 2024)</h4>
+<ul>
+  <li>Thesis: <a href="/projects/masters-thesis/">Mobility and income segregation in Madrid, Spain</a>.</li>
+  <li>Selected courses: Advanced Machine Learning (ITU), Geospatial Data Science (ITU), Advanced Network Science (ITU), Natural Language Processing (DIKU, University of Copenhagen).</li>
+</ul>
+
+<h4>B.Sc. Marketing and Computer Science Minor, Cardinal Stritch University (2018 – 2022)</h4>
+<ul>
+  <li>Magna Cum Laude.</li>
+  <li>Dean's List (2018–2022).</li>
+  <li>Best Graduating GPA (Marketing, 2022).</li>
+</ul>
+
+<h3>Skills</h3>
+<ul>
+  <li><strong>Programming &amp; Data:</strong> Python (pandas, numpy, matplotlib, tensorflow, pytorch, scikit-learn), SQL, Bash</li>
+  <li><strong>ML &amp; NLP:</strong> Transformers, RAG, Topic Modeling (UMAP, HDBSCAN, BERTopic), Computer Vision, Predictive Modeling, Feature Engineering</li>
+  <li><strong>Visualization &amp; Analysis:</strong> Matplotlib, Seaborn, Tableau, Power BI, Statistical Analysis, Data Wrangling</li>
+  <li><strong>Geospatial:</strong> Geopandas, Rasterio, QGIS, Spatial Analysis</li>
+  <li><strong>Cloud &amp; DevOps:</strong> Docker, Git, Linux, AWS, UCloud, CI/CD, VSCode</li>
+  <li><strong>Other:</strong> LaTeX, Overleaf, Statistics</li>
+</ul>
+
+<h3>Languages</h3>
+<ul>
+  <li>Spanish (Native)</li>
+  <li>Galician (Native)</li>
+  <li>English (Professional)</li>
+  <li>Danish (Beginner)</li>
+</ul>
+
+<h3>Awards</h3>
+<ul>
+  <li><strong>Dean's List (2018–2022):</strong> GPA above 3.5 each semester.</li>
+  <li><strong>Best Graduating GPA Marketing B.Sc. (2022).</strong></li>
+  <li><strong>Academic and Athletic Grant (2018–2022):</strong> Full scholarship for academic excellence and soccer performance.</li>
+</ul>
+</section>
