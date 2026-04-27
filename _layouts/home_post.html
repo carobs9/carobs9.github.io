@@ -1,0 +1,88 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="home-layout home-post">
+
+    {% include browser-upgrade.html %}
+
+    <header class="home-header home-header--compact">
+      <a href="{{ '/' | relative_url }}" class="home-back-link">
+        {% if site.author.avatar %}
+          {% if site.author.avatar contains "://" %}
+            <img class="home-back-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
+          {% else %}
+            <img class="home-back-avatar" src="{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ site.author.name }}" />
+          {% endif %}
+        {% endif %}
+        <span class="home-back-name">{{ site.author.name }}</span>
+      </a>
+    </header>
+
+    <nav class="home-nav" aria-label="Page sections">
+      <a href="{{ '/#about' | relative_url }}">About</a>
+      <a href="{{ '/#projects' | relative_url }}">Projects</a>
+      <a href="{{ '/#publications' | relative_url }}">Publications</a>
+      <a href="{{ '/#cv' | relative_url }}">CV</a>
+    </nav>
+
+    <main class="home-main" role="main">
+      <article class="home-article">
+
+        {% if page.title %}
+          <h1 class="post-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% endif %}
+
+        {% if page.collection == 'publications' and page.venue %}
+          <p class="post-meta">Published in <em>{{ page.venue }}</em>{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
+        {% elsif page.date %}
+          <p class="post-meta">{{ page.date | date: "%B %Y" }}</p>
+        {% endif %}
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        {% if page.collection == 'publications' %}
+          {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl %}
+            <div class="post-refs">
+              {% if page.citation %}<p><strong>Recommended citation:</strong> {{ page.citation }}</p>{% endif %}
+              <p>
+                {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
+                {% if page.paperurl and page.slidesurl %} · {% endif %}
+                {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Slides</a>{% endif %}
+                {% if (page.paperurl or page.slidesurl) and page.bibtexurl %} · {% endif %}
+                {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}">BibTeX</a>{% endif %}
+              </p>
+            </div>
+          {% endif %}
+        {% endif %}
+
+        <p class="post-back">
+          {% if page.collection == 'publications' %}
+            <a href="{{ '/#publications' | relative_url }}">← Back to publications</a>
+          {% else %}
+            <a href="{{ '/#projects' | relative_url }}">← Back to projects</a>
+          {% endif %}
+        </p>
+
+      </article>
+    </main>
+
+    <footer class="home-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} · <a href="{{ '/' | relative_url }}">Home</a></p>
+    </footer>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

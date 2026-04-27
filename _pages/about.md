@@ -74,51 +74,83 @@ redirect_from:
 
 <h3>Experience</h3>
 
-<h4>Feb 2026 – Present · Research Assistant (Data Science), University of Copenhagen</h4>
-<ul>
-  <li>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</li>
-  <li>Building a unified database with all new cereal varieties released in the OECD since 1980, their traits and breeding history, and information about the companies involved in developing them.</li>
-  <li>The database will be the first large, unified database of its kind, and will be instrumental for exploring how to improve the crop innovation system to increase the global food supply without expanding cropland into pristine environments.</li>
-</ul>
+<div class="timeline">
 
-<h4>May 2024 – Dec 2025 · Research Assistant (Data Science), University of Copenhagen</h4>
-<ul>
-  <li>Contributed to the Shocking Religion project.</li>
-  <li>Built topic models to uncover thematic trends in text data.</li>
-  <li>Built RAG-based LLM pipelines for document insights.</li>
-  <li>Designed and containerized scalable ingestion &amp; preprocessing workflows (UCloud).</li>
-  <li>Coordinated with multidisciplinary research team.</li>
-</ul>
+  <div class="timeline-item">
+    <div class="timeline-date">Feb 2026 – Present</div>
+    <h4>Research Assistant, Data Science</h4>
+    <div class="timeline-org">University of Copenhagen</div>
+    <ul>
+      <li>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</li>
+      <li>Building a unified database with all new cereal varieties released in the OECD since 1980, their traits and breeding history, and information about the companies involved in developing them.</li>
+      <li>The database will be the first large, unified database of its kind, and will be instrumental for exploring how to improve the crop innovation system to increase the global food supply without expanding cropland into pristine environments.</li>
+    </ul>
+  </div>
 
-<h4>Oct 2023 – May 2024 · Data Scientist, Above Sports, Denmark</h4>
-<ul>
-  <li>Automated data workflows to improve efficiency.</li>
-  <li>Developed computer vision brand logo detection models.</li>
-  <li>Dockerized solutions for reproducible ML workflows.</li>
-  <li>Collaborated with product to refine output quality.</li>
-</ul>
+  <div class="timeline-item">
+    <div class="timeline-date">May 2024 – Dec 2025</div>
+    <h4>Research Assistant, Data Science</h4>
+    <div class="timeline-org">University of Copenhagen</div>
+    <ul>
+      <li>Contributed to the Shocking Religion project.</li>
+      <li>Built topic models to uncover thematic trends in text data.</li>
+      <li>Built RAG-based LLM pipelines for document insights.</li>
+      <li>Designed and containerized scalable ingestion &amp; preprocessing workflows (UCloud).</li>
+      <li>Coordinated with multidisciplinary research team.</li>
+    </ul>
+  </div>
 
-<h4>Sep 2021 – May 2022 · Marketing Strategist, Crescendo Collective, United States</h4>
-<ul>
-  <li>Analyzed campaign performance (Google Analytics, Ads).</li>
-  <li>Automated internal reporting with Python scripts.</li>
-  <li>Competitor analysis and audience benchmarks; stakeholder reporting.</li>
-</ul>
+  <div class="timeline-item">
+    <div class="timeline-date">Oct 2023 – May 2024</div>
+    <h4>Data Scientist</h4>
+    <div class="timeline-org">Above Sports, Denmark</div>
+    <ul>
+      <li>Automated data workflows to improve efficiency.</li>
+      <li>Developed computer vision brand logo detection models.</li>
+      <li>Dockerized solutions for reproducible ML workflows.</li>
+      <li>Collaborated with product to refine output quality.</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">Sep 2021 – May 2022</div>
+    <h4>Marketing Strategist</h4>
+    <div class="timeline-org">Crescendo Collective, United States</div>
+    <ul>
+      <li>Analyzed campaign performance (Google Analytics, Ads).</li>
+      <li>Automated internal reporting with Python scripts.</li>
+      <li>Competitor analysis and audience benchmarks; stakeholder reporting.</li>
+    </ul>
+  </div>
+
+</div>
 
 <h3>Education</h3>
 
-<h4>M.Sc. Social Data Science, University of Copenhagen (2022 – 2024)</h4>
-<ul>
-  <li>Thesis: <a href="/projects/masters-thesis/">Mobility and income segregation in Madrid, Spain</a>.</li>
-  <li>Selected courses: Advanced Machine Learning (ITU), Geospatial Data Science (ITU), Advanced Network Science (ITU), Natural Language Processing (DIKU, University of Copenhagen).</li>
-</ul>
+<div class="timeline">
 
-<h4>B.Sc. Marketing and Computer Science Minor, Cardinal Stritch University (2018 – 2022)</h4>
-<ul>
-  <li>Magna Cum Laude.</li>
-  <li>Dean's List (2018–2022).</li>
-  <li>Best Graduating GPA (Marketing, 2022).</li>
-</ul>
+  <div class="timeline-item">
+    <div class="timeline-date">2022 – 2024</div>
+    <h4>M.Sc. Social Data Science</h4>
+    <div class="timeline-org">University of Copenhagen</div>
+    <ul>
+      <li>Thesis: <a href="/projects/masters-thesis/">Mobility and income segregation in Madrid, Spain</a>.</li>
+      <li>Selected courses: Advanced Machine Learning (ITU), Geospatial Data Science (ITU), Advanced Network Science (ITU), Natural Language Processing (DIKU, University of Copenhagen).</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2018 – 2022</div>
+    <h4>B.Sc. Marketing and Computer Science Minor</h4>
+    <div class="timeline-org">Cardinal Stritch University</div>
+    <ul>
+      <li>Magna Cum Laude.</li>
+      <li>Dean's List (2018–2022).</li>
+      <li>Best Graduating GPA (Marketing, 2022).</li>
+    </ul>
+  </div>
+
+</div>
 
 <h3>Skills</h3>
 <ul>
