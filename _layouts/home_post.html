@@ -15,19 +15,6 @@ layout: compress
 
     {% include browser-upgrade.html %}
 
-    <header class="home-header home-header--compact">
-      <a href="{{ '/' | relative_url }}" class="home-back-link">
-        {% if site.author.avatar %}
-          {% if site.author.avatar contains "://" %}
-            <img class="home-back-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
-          {% else %}
-            <img class="home-back-avatar" src="{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ site.author.name }}" />
-          {% endif %}
-        {% endif %}
-        <span class="home-back-name">{{ site.author.name }}</span>
-      </a>
-    </header>
-
     <nav class="home-nav" aria-label="Page sections">
       <a href="{{ '/#about' | relative_url }}">About</a>
       <a href="{{ '/#projects' | relative_url }}">Projects</a>
@@ -57,11 +44,10 @@ layout: compress
             <div class="post-refs">
               {% if page.citation %}<p><strong>Recommended citation:</strong> {{ page.citation }}</p>{% endif %}
               <p>
-                {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
-                {% if page.paperurl and page.slidesurl %} · {% endif %}
-                {% if page.slidesurl %}<a href="{{ page.slidesurl }}">Slides</a>{% endif %}
-                {% if (page.paperurl or page.slidesurl) and page.bibtexurl %} · {% endif %}
-                {% if page.bibtexurl %}<a href="{{ page.bibtexurl }}">BibTeX</a>{% endif %}
+                {% assign sep = false %}
+                {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% assign sep = true %}{% endif %}
+                {% if page.slidesurl %}{% if sep %} · {% endif %}<a href="{{ page.slidesurl }}">Slides</a>{% assign sep = true %}{% endif %}
+                {% if page.bibtexurl %}{% if sep %} · {% endif %}<a href="{{ page.bibtexurl }}">BibTeX</a>{% endif %}
               </p>
             </div>
           {% endif %}
