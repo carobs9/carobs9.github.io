@@ -45,11 +45,17 @@ redirect_from:
 </section>
 
 <section id="publications">
-<h2>Publications</h2>
+<h2>Research collaborations</h2>
+
+<p class="section-intro">Papers I've contributed to as a research assistant. I am not listed as an author — credit goes to the authors below.</p>
 
 {% for post in site.publications reversed %}
   <div class="home-entry">
+    {% if post.my_role %}<span class="role-badge">{{ post.my_role }}</span>{% endif %}
     <h3>{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
+    {% if post.authors %}
+      <p class="home-entry-authors">By {{ post.authors | join: ', ' }}</p>
+    {% endif %}
     <p class="home-entry-meta">
       {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
       {% if post.date %} · {{ post.date | date: "%Y" }}{% endif %}
@@ -57,8 +63,8 @@ redirect_from:
     {% if post.excerpt %}
       <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
-    {% if post.citation %}
-      <p style="font-size: 0.9em; color: #666;">{{ post.citation }}</p>
+    {% if post.news_url %}
+      <p>📰 Press: <a href="{{ post.news_url }}">{{ post.news_title | default: 'News article' }}</a></p>
     {% endif %}
   </div>
 {% endfor %}
@@ -90,9 +96,9 @@ redirect_from:
   <div class="timeline-item">
     <div class="timeline-date">May 2024 – Dec 2025</div>
     <h4>Research Assistant, Data Science</h4>
-    <div class="timeline-org">University of Copenhagen</div>
+    <div class="timeline-org">University of Copenhagen — with Prof. Jeanet Sinding Bentzen</div>
     <ul>
-      <li>Contributed to the Shocking Religion project.</li>
+      <li>Contributed to the Shocking Religion project, which examines how faith-based initiatives in the US shaped religiosity and conservative-religious social views. Press coverage: <a href="https://www.economics.ku.dk/news/news/faith-based-initiatives-increase-religiosity-and-conservatism-in-the-united-states/">UCPH Department of Economics</a>.</li>
       <li>Built topic models to uncover thematic trends in text data.</li>
       <li>Built RAG-based LLM pipelines for document insights.</li>
       <li>Designed and containerized scalable ingestion &amp; preprocessing workflows (UCloud).</li>

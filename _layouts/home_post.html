@@ -25,8 +25,16 @@ layout: compress
     <main class="home-main" role="main">
       <article class="home-article">
 
+        {% if page.collection == 'publications' and page.my_role %}
+          <span class="role-badge">{{ page.my_role }}</span>
+        {% endif %}
+
         {% if page.title %}
           <h1 class="post-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% endif %}
+
+        {% if page.collection == 'publications' and page.authors %}
+          <p class="post-authors">By {{ page.authors | join: ', ' }}</p>
         {% endif %}
 
         {% if page.collection == 'publications' and page.venue %}
@@ -38,6 +46,10 @@ layout: compress
         <div class="post-content">
           {{ content }}
         </div>
+
+        {% if page.news_url %}
+          <p class="post-news">📰 Press: <a href="{{ page.news_url }}">{{ page.news_title | default: 'News article' }}</a></p>
+        {% endif %}
 
         {% if page.collection == 'publications' %}
           {% if page.citation or page.paperurl or page.slidesurl or page.bibtexurl %}

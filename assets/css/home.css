@@ -218,7 +218,7 @@ body.home-layout li {
 
 /* project / publication entries */
 .home-entry {
-  margin-bottom: 22px;
+  margin-bottom: 26px;
 }
 .home-entry h3 {
   margin: 0 0 4px;
@@ -234,8 +234,50 @@ body.home-layout li {
   font-size: 0.88rem;
   margin: 0 0 6px;
 }
+.home-entry .home-entry-authors {
+  color: var(--text-gray);
+  font-size: 0.92rem;
+  font-style: italic;
+  margin: 0 0 4px;
+}
 .home-entry p {
   margin: 0 0 6px;
+}
+
+/* Inline role badge ("Research Assistant", etc.) */
+.role-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--uva-orange-muted);
+  background: rgba(165, 77, 23, 0.08);
+  border: 1px solid rgba(165, 77, 23, 0.25);
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+/* Section intro paragraph (under an h2, before entries) */
+.section-intro {
+  color: var(--text-gray);
+  font-style: italic;
+  margin: -6px 0 18px;
+  font-size: 0.95rem;
+}
+
+/* Inner-page (publication detail) author + news lines */
+.post-authors {
+  color: var(--text-gray);
+  font-style: italic;
+  font-size: 0.95rem;
+  margin: 0 0 6px;
+}
+
+.post-news {
+  margin: 18px 0 0;
+  font-size: 0.95rem;
 }
 
 /* ---- vertical timeline (CV experience + education) ---- */
