@@ -18,7 +18,7 @@ redirect_from:
 <p>Besides making this website look pretty, my interests include machine learning, network analysis, natural language processing, and geospatial data.</p>
 
 <h3>Currently</h3>
-<p>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</p>
+<p>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project, financed by the Carlsberg Foundation.</p>
 
 <h3>Core Skills</h3>
 <ul>
@@ -47,7 +47,7 @@ redirect_from:
 <section id="publications">
 <h2>Research collaborations</h2>
 
-<p class="section-intro">Papers I've contributed to as a research assistant. I am not listed as an author — credit goes to the authors below.</p>
+<p class="section-intro">Papers I've contributed to as a research assistant.</p>
 
 {% for post in site.publications reversed %}
   <div class="home-entry">
@@ -64,7 +64,7 @@ redirect_from:
       <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
     {% if post.news_url %}
-      <p>📰 Press: <a href="{{ post.news_url }}">{{ post.news_title | default: 'News article' }}</a></p>
+      <p>Press: <a href="{{ post.news_url }}">{{ post.news_title | default: 'News article' }}</a></p>
     {% endif %}
   </div>
 {% endfor %}
@@ -83,6 +83,7 @@ redirect_from:
 <div class="timeline">
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/ucph.svg" alt="University of Copenhagen logo">
     <div class="timeline-date">Feb 2026 – Present</div>
     <h4>Research Assistant, Data Science</h4>
     <div class="timeline-org">University of Copenhagen</div>
@@ -94,6 +95,7 @@ redirect_from:
   </div>
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/ucph.svg" alt="University of Copenhagen logo">
     <div class="timeline-date">May 2024 – Dec 2025</div>
     <h4>Research Assistant, Data Science</h4>
     <div class="timeline-org">University of Copenhagen — with Prof. Jeanet Sinding Bentzen</div>
@@ -136,6 +138,7 @@ redirect_from:
 <div class="timeline">
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/ucph.svg" alt="University of Copenhagen logo">
     <div class="timeline-date">2022 – 2024</div>
     <h4>M.Sc. Social Data Science</h4>
     <div class="timeline-org">University of Copenhagen</div>

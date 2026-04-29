@@ -309,6 +309,25 @@ body.home-layout li {
   box-sizing: border-box;
 }
 
+/* When a timeline item has a logo, the logo replaces the dot */
+.timeline-item:has(.timeline-logo)::before {
+  display: none;
+}
+
+.timeline-logo {
+  position: absolute;
+  left: -49px;
+  top: -4px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 3px;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
 .timeline-date {
   font-size: 0.82rem;
   color: var(--text-gray);
@@ -485,5 +504,10 @@ body.home-layout li {
   }
   .timeline-item::before {
     left: -29px;
+  }
+  .timeline-logo {
+    left: -42px;
+    width: 34px;
+    height: 34px;
   }
 }
