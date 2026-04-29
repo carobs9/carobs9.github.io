@@ -109,6 +109,7 @@ redirect_from:
   </div>
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/above_sports.jpg" alt="Above Sports logo">
     <div class="timeline-date">Oct 2023 – May 2024</div>
     <h4>Data Scientist</h4>
     <div class="timeline-org">Above Sports, Denmark</div>
@@ -121,6 +122,7 @@ redirect_from:
   </div>
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/crescendo-logo-dark.webp" alt="Crescendo Collective logo">
     <div class="timeline-date">Sep 2021 – May 2022</div>
     <h4>Marketing Strategist</h4>
     <div class="timeline-org">Crescendo Collective, United States</div>
@@ -149,6 +151,7 @@ redirect_from:
   </div>
 
   <div class="timeline-item">
+    <img class="timeline-logo" src="/images/logos/9card_stritch.avif" alt="Cardinal Stritch University logo">
     <div class="timeline-date">2018 – 2022</div>
     <h4>B.Sc. Marketing and Computer Science Minor</h4>
     <div class="timeline-org">Cardinal Stritch University</div>
