@@ -8,7 +8,7 @@ authors:
   - "Jeanet Sinding Bentzen"
   - "Alessandro Pizzigolotto"
   - "Lena Lindbjerg Sperling"
-my_role: "Research Assistant (data work, not an author)"
+my_role: "Contributed as a research assistant"
 excerpt: "I contributed to this paper as a research assistant. The paper examines the impact of policies on personal values and beliefs by exploiting the staggered introduction of faith-based initiatives across US states. A difference-in-differences analysis reveals that the initiatives strengthened religiosity and conservative-religious social views, such as attitudes against homosexuals."
 category: published-paper
 paperurl: "https://www.aeaweb.org/articles?id=10.1257/app.20240018&from=f"

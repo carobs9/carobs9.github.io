@@ -47,8 +47,6 @@ redirect_from:
 <section id="publications">
 <h2>Research collaborations</h2>
 
-<p class="section-intro">Papers I've contributed to as a research assistant.</p>
-
 {% for post in site.publications reversed %}
   <div class="home-entry">
     {% if post.my_role %}<span class="role-badge">{{ post.my_role }}</span>{% endif %}
