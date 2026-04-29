@@ -84,7 +84,7 @@ redirect_from:
     <img class="timeline-logo" src="/images/logos/ucph.svg" alt="University of Copenhagen logo">
     <div class="timeline-date">Feb 2026 – Present</div>
     <h4>Research Assistant, Data Science</h4>
-    <div class="timeline-org">University of Copenhagen</div>
+    <div class="timeline-org">University of Copenhagen — with Prof. Asger Mose Wingender</div>
     <ul>
       <li>Collaborating as a research assistant in the <a href="https://www.carlsbergfondet.dk/en/what-we-have-funded/cf25-1677/">Cataloguing Crop Traits and Breeders Across the OECD 1980-2025</a> project (financed by the Carlsberg Foundation).</li>
       <li>Building a unified database with all new cereal varieties released in the OECD since 1980, their traits and breeding history, and information about the companies involved in developing them.</li>
