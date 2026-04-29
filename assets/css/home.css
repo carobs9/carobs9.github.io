@@ -318,12 +318,12 @@ body.home-layout li {
   position: absolute;
   left: -55px;
   top: -6px;
-  width: 92px;
-  height: 92px;
+  width: 72px;
+  height: 72px;
   object-fit: contain;
   background: #ffffff;
   padding: 3px;
-  border: 1px solid var(--border-light);
+  border: 0px solid var(--border-light);
   border-radius: 6px;
   box-sizing: border-box;
 }
