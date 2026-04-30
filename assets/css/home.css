@@ -284,7 +284,7 @@ body.home-layout li {
 .timeline {
   position: relative;
   margin: 18px 0 24px;
-  padding-left: 28px;
+  padding-left: 48px;
   border-left: 2px solid var(--border-light);
 }
 
@@ -299,7 +299,7 @@ body.home-layout li {
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: -35px;
+  left: -52px;
   top: 6px;
   width: 10px;
   height: 10px;
@@ -316,7 +316,7 @@ body.home-layout li {
 
 .timeline-logo {
   position: absolute;
-  left: -55px;
+  left: -78px;
   top: -6px;
   width: 62px;
   height: 62px;
@@ -500,13 +500,13 @@ body.home-layout li {
     font-size: 1.2rem;
   }
   .timeline {
-    padding-left: 22px;
+    padding-left: 36px;
   }
   .timeline-item::before {
-    left: -29px;
+    left: -40px;
   }
   .timeline-logo {
-    left: -45px;
+    left: -56px;
     width: 42px;
     height: 42px;
   }
