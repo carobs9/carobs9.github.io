@@ -98,7 +98,7 @@ redirect_from:
     <h4>Research Assistant, Data Science</h4>
     <div class="timeline-org">University of Copenhagen — with Prof. Jeanet Sinding Bentzen</div>
     <ul>
-      <li>Contributed to the Shocking Religion project, which examines how faith-based initiatives in the US shaped religiosity and conservative-religious social views. Press coverage: <a href="https://www.economics.ku.dk/news/news/faith-based-initiatives-increase-religiosity-and-conservatism-in-the-united-states/">UCPH Department of Economics</a>.</li>
+      <li>Contributed to the Shocking Religion project, which examines how faith-based initiatives in the US shaped religiosity and conservative-religious social views. Press coverage: <a href="https://www.economics.ku.dk/news/news/2026/faith-based-initiatives-increase-religiosity-and-conservatism-in-the-united-states/">UCPH Department of Economics</a>.</li>
       <li>Built topic models to uncover thematic trends in text data.</li>
       <li>Built RAG-based LLM pipelines for document insights.</li>
       <li>Designed and containerized scalable ingestion &amp; preprocessing workflows (UCloud).</li>
